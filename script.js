@@ -1,3 +1,14 @@
+// Conexão ME RH ↔ NR-1: adiciona o hub de prevenção à navegação principal.
+(function(){
+  const addNR1Link=()=>{
+    const nav=document.querySelector('.nav nav');
+    if(nav && !nav.querySelector('[href="nr1.html"]')){
+      const a=document.createElement('a'); a.href='nr1.html'; a.textContent='NR-1'; a.title='NR-1 · Riscos Psicossociais'; nav.appendChild(a);
+    }
+  };
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',addNR1Link); else addNR1Link();
+})();
+
 const profileData={crescimento:['Seu perfil: Crescimento','Você tende a permanecer onde existe futuro visível. A ME RH responde com trilhas de carreira, PDI, mentoria e oportunidades internas.'],seguranca:['Seu perfil: Segurança','Você valoriza previsibilidade e confiança. A ME RH combina clareza, benefícios, processos e uma relação transparente com a empresa.'],reconhecimento:['Seu perfil: Reconhecimento','Você precisa perceber que seu esforço importa. A ME RH trabalha com feedback, reconhecimento e visibilidade das entregas.'],qualidade:['Seu perfil: Qualidade de vida','Você busca equilíbrio. A ME RH entende que produtividade sustentável nasce de respeito, flexibilidade, saúde e uma vida que continua fora do trabalho.']};
 document.querySelectorAll('.choice').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.choice').forEach(x=>x.classList.remove('active'));btn.classList.add('active');const [title,text]=profileData[btn.dataset.profile];const r=document.getElementById('profile-result');r.innerHTML=`<strong>${title}</strong><p>${text}</p>`;r.classList.remove('hidden');r.scrollIntoView({behavior:'smooth',block:'center'})}));
 const salary=document.getElementById('salary'),benefits=document.getElementById('benefits'),salaryLabel=document.getElementById('salaryLabel'),benefitLabel=document.getElementById('benefitLabel'),total=document.getElementById('total'),barSalary=document.getElementById('barSalary'),barBenefits=document.getElementById('barBenefits'),barExperience=document.getElementById('barExperience');
