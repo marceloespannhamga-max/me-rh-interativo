@@ -1,0 +1,25 @@
+/* ME RH — Premium Visual Layer */
+:root{--premium-lime:#b8f36a;--premium-green:#102a21;--premium-dark:#07130f;--premium-muted:#9eb0a8}
+body{overflow-x:hidden}
+.nav{box-shadow:0 8px 30px rgba(16,34,29,.035)}
+.nav nav a{position:relative;padding:8px 0;transition:.2s}.nav nav a:after{content:"";position:absolute;left:0;right:100%;bottom:0;height:2px;background:var(--premium-lime);transition:.25s}.nav nav a:hover:after{right:0}
+.hero{background:radial-gradient(circle at 82% 18%,rgba(184,243,106,.18),transparent 27%),linear-gradient(135deg,#f9fbfa,#eaf3ed)}
+.hero h1 em{color:#4f9138;text-shadow:0 0 20px rgba(79,145,56,.06)}
+.illustration-card{box-shadow:0 35px 90px rgba(15,35,28,.18);transform:none!important;transition:.4s ease}.illustration-card:hover{transform:translateY(-6px)!important;box-shadow:0 45px 110px rgba(15,35,28,.23)}
+.floating-card{backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.7)}
+.choice{transition:.25s ease}.choice:hover,.choice.active{box-shadow:0 20px 50px rgba(15,35,28,.12)}
+.form-panel,.total-panel,.chart-card,.kpi{transition:transform .25s ease,box-shadow .25s ease}.form-panel:hover,.total-panel:hover,.chart-card:hover,.kpi:hover{transform:translateY(-3px);box-shadow:0 20px 55px rgba(15,35,28,.11)}
+
+/* Manifesto — visual principal */
+.manifesto{position:relative;overflow:hidden;min-height:680px;background:radial-gradient(circle at 72% 45%,rgba(184,243,106,.12),transparent 25%),linear-gradient(135deg,#07130f 0%,#10271f 55%,#0a1914 100%);isolation:isolate}
+.manifesto:before{content:"";position:absolute;width:620px;height:620px;right:-260px;top:-120px;border-radius:50%;border:1px solid rgba(184,243,106,.12);box-shadow:0 0 120px rgba(184,243,106,.06);z-index:-1}
+.manifesto:after{content:"";position:absolute;left:-180px;bottom:-230px;width:480px;height:480px;border-radius:50%;background:rgba(91,160,116,.06);filter:blur(4px);z-index:-1}
+.manifesto-grid{position:relative;z-index:2}.manifesto h2{max-width:920px;text-wrap:balance}.manifesto h2 span{display:inline-block;color:#8fd957;text-shadow:0 0 28px rgba(143,217,87,.08)}.manifesto p{line-height:1.7}.manifesto-copy:after{content:"";display:block;width:70px;height:3px;background:var(--premium-lime);border-radius:99px;margin-top:34px;opacity:.8}.manifesto .btn{background:var(--premium-lime);color:#0b1713;box-shadow:0 16px 40px rgba(184,243,106,.13)}.manifesto .btn:hover{background:#c7f87f}
+.manifesto-art{height:500px;position:relative}.manifesto-art:before{content:"";position:absolute;width:350px;height:350px;border-radius:50%;background:radial-gradient(circle,rgba(184,243,106,.15),rgba(184,243,106,.025) 55%,transparent 70%);filter:blur(3px)}
+.manifesto-art .ring{width:370px;height:370px;border-color:rgba(184,243,106,.28);box-shadow:0 0 90px rgba(184,243,106,.1),inset 0 0 70px rgba(184,243,106,.025);position:relative;animation:manifestoPulse 7s ease-in-out infinite}.manifesto-art .ring:before,.manifesto-art .ring:after{content:"";position:absolute;border-radius:50%;border:1px solid rgba(255,255,255,.08)}.manifesto-art .ring:before{inset:34px}.manifesto-art .ring:after{inset:78px}
+.manifesto-art .mini-person{z-index:3;box-shadow:0 28px 35px rgba(0,0,0,.28);transition:.35s}.manifesto-art .mini-person:after{content:"";position:absolute;left:18px;right:18px;top:25px;height:34px;border-radius:10px;background:rgba(255,255,255,.2)}.manifesto-art .mini-person.second{z-index:4;box-shadow:0 28px 35px rgba(0,0,0,.28)}.manifesto-art .mini-person.second:after{background:rgba(255,255,255,.18)}.manifesto-art:hover .mini-person{transform:translateY(-8px)}.manifesto-art:hover .mini-person.second{transform:translateY(-13px)}
+.manifesto-art span{font-size:13px;line-height:1.25;top:5%;right:3%;text-shadow:0 0 18px rgba(184,243,106,.2)}.manifesto-art span:before{content:"";position:absolute;width:9px;height:9px;border-radius:50%;background:var(--premium-lime);left:-22px;top:6px;box-shadow:0 0 18px var(--premium-lime)}.manifesto-art span:after{content:"EXPERIÊNCIA";position:absolute;white-space:nowrap;right:0;top:45px;color:#6f857b;font-size:8px;letter-spacing:.2em;font-weight:700}
+.manifesto-art:after{content:"RETENÇÃO  +6,4 p.p.";position:absolute;left:3%;bottom:7%;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.11);backdrop-filter:blur(14px);color:#dbe6e1;border-radius:14px;padding:11px 14px;font-size:10px;letter-spacing:.08em;font-weight:800;box-shadow:0 15px 35px rgba(0,0,0,.2)}
+@keyframes manifestoPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.018)}}
+@media(max-width:900px){.manifesto{min-height:auto}.manifesto-grid{gap:20px}.manifesto-art{height:440px}.manifesto-art .ring{width:320px;height:320px}}
+@media(max-width:560px){.manifesto{padding-top:85px;padding-bottom:85px}.manifesto h2{font-size:42px}.manifesto-art{height:370px;transform:scale(.88);transform-origin:center}.manifesto-art:after{left:0;bottom:4%}}
