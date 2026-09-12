@@ -1,110 +1,17 @@
 /* ME RH — identidade visual DEFINITIVA azul escuro + branco */
-:root{
-  --me-blue:#0b1f3a;
-  --me-blue-2:#12345f;
-  --me-accent:#4da3ff;
-  --me-accent-2:#7cc4ff;
-  --me-light:#f3f7fc;
-  --me-line:#d7e2ef;
-}
-
-html,body{background:#f3f7fc!important;color:#0b1f3a!important}
-body{overflow-x:hidden}
-
-/* NAV */
-.topbar,.nav{background:rgba(255,255,255,.97)!important;border-color:#d7e2ef!important;box-shadow:0 8px 30px rgba(11,31,58,.08)!important}
-.logo,.brand-mark{background:#0b1f3a!important;color:#fff!important}
-.nav nav a,.brand small{color:#38516f!important}
-.nav nav a:hover{color:#0b1f3a!important}
-.btn,.nav .btn,.nav-cta,.primary{background:#0b1f3a!important;color:#fff!important;border-color:#0b1f3a!important}
-.btn.light{background:#4da3ff!important;color:#06172d!important}
-.btn.outline{background:#fff!important;color:#0b1f3a!important;border-color:#b9cce0!important}
-
-/* HERO */
-.hero{background:radial-gradient(circle at 82% 18%,rgba(77,163,255,.22),transparent 28%),linear-gradient(135deg,#fff,#edf4fb)!important}
-.hero h1,.section h2{color:#0b1f3a!important}
-.hero h1 em,.section h2 span,.section h2 em,.hero .kicker,.section-head .kicker,.kicker{color:#1768b0!important}
-.lead,.section-head p,.card p,.job p{color:#61738a!important}
-.hero-card,.illustration-card{background:linear-gradient(145deg,#06152a,#12345f)!important;box-shadow:0 30px 80px rgba(11,31,58,.22)!important}
-.hero-card:before{background:rgba(77,163,255,.22)!important}
-.hero-card:after{background:rgba(124,196,255,.15)!important}
-.person{background:#4da3ff!important}
-.person:nth-child(2){background:#7cc4ff!important}
-.person:nth-child(3){background:#8eb8e8!important}
-.hero-card .kicker{color:#7cc4ff!important}
-
-/* SECOES */
-.section{background:#f3f7fc!important}
-.section.alt{background:#fff!important}
-.section.dark,.dark,.dark-section{background:linear-gradient(135deg,#06152a,#0b1f3a 58%,#12345f)!important;color:#fff!important}
-.dark .section-head h2,.dark-section .section-head h2{color:#fff!important}
-.dark .section-head p,.dark-section .section-head p{color:#b9c9da!important}
-
-/* CARDS */
-.card,.panel,.job{background:#fff!important;border-color:#d7e2ef!important}
-.card .num{color:#1768b0!important}
-.profile{background:linear-gradient(135deg,#06152a,#0b1f3a)!important}
-.profile-option{background:#102846!important;border-color:#345477!important;color:#fff!important}
-.profile-option.active{background:#4da3ff!important;color:#06172d!important;border-color:#4da3ff!important}
-.profile-result{background:#eaf4ff!important;color:#0b1f3a!important;border:1px solid #c8def3!important}
-
-/* SIMULADOR */
-.panel.value-panel,.value-panel,.total-panel{background:linear-gradient(145deg,#06152a,#0b1f3a)!important;color:#fff!important}
-.value-panel strong,.total-panel>strong{color:#7cc4ff!important}
-.bar,.bars i{background:#274563!important}
-.bar i,.bars i{background:linear-gradient(90deg,#4da3ff,#7cc4ff)!important}
-.panel input[type=range]{accent-color:#4da3ff!important}
-
-/* CARREIRA — conexoes */
-.career-track,.career{position:relative}
-.career-track:before,.career:before{background:linear-gradient(90deg,#4da3ff,#7cc4ff)!important}
-.career-step{background:#fff!important;color:#0b1f3a!important;border:1px solid #cbd9e8!important}
-.career-step:after{content:'→'!important;background:#0b1f3a!important;color:#fff!important;border:3px solid #f3f7fc!important}
-.career-step.active{background:#0b1f3a!important;color:#fff!important;border-color:#4da3ff!important;box-shadow:0 18px 45px rgba(11,31,58,.25)!important}
-.career-step.active:after{background:#4da3ff!important;color:#06172d!important}
-.career-step span{color:#1768b0!important}
-.career-step.active span{color:#7cc4ff!important}
-.career-step small{color:#61738a!important}
-.career-step.active small{color:#c5d5e6!important}
-.career-detail,.career-content{background:#eaf3fc!important;border-color:#cbdfee!important;color:#0b1f3a!important}
-.career-detail p{color:#61738a!important}
-
-/* VAGAS */
-.badge{background:#e8f3ff!important;color:#1768b0!important}
-.job-footer .btn{background:#0b1f3a!important;color:#fff!important}
-
-/* ACOLHIMENTO */
-.welcome{background:linear-gradient(135deg,#e9f4ff,#dceeff)!important;color:#0b1f3a!important;border:1px solid #c6dbef!important}
-.listen{background:linear-gradient(145deg,#06152a,#0b1f3a)!important;color:#fff!important}
-.listen-options button{background:#102846!important;border-color:#345477!important;color:#fff!important}
-.listen-options button:hover{border-color:#4da3ff!important}
-
-/* NR-1 */
-.risk-map button{background:#fff!important;border-color:#cbd9e8!important;color:#0b1f3a!important}
-.risk-map button.active{background:#0b1f3a!important;color:#fff!important;border-color:#0b1f3a!important}
-.risk-detail{background:#eaf3fc!important;color:#0b1f3a!important}
-.risk-score{background:#d4e2ef!important}
-.risk-score i{background:#4da3ff!important}
-
-/* PEOPLE ANALYTICS */
-.kpi{background:rgba(255,255,255,.055)!important;border-color:rgba(124,196,255,.22)!important;color:#fff!important}
-.kpi strong{color:#7cc4ff!important}
-.kpi small{color:#b7c9dc!important}
-
-/* SETAS ENTRE SECOES */
+:root{--me-blue:#0b1f3a;--me-blue-2:#12345f;--me-accent:#4da3ff;--me-accent-2:#7cc4ff;--me-light:#f3f7fc;--me-line:#d7e2ef}
+html,body{background:#f3f7fc!important;color:#0b1f3a!important}body{overflow-x:hidden}
+.topbar,.nav{background:rgba(255,255,255,.97)!important;border-color:#d7e2ef!important;box-shadow:0 8px 30px rgba(11,31,58,.08)!important}.logo,.brand-mark{background:#0b1f3a!important;color:#fff!important}.nav nav a,.brand small{color:#38516f!important}.nav nav a:hover{color:#0b1f3a!important}.btn,.nav .btn,.nav-cta,.primary{background:#0b1f3a!important;color:#fff!important;border-color:#0b1f3a!important}.btn.light{background:#4da3ff!important;color:#06172d!important}.btn.outline{background:#fff!important;color:#0b1f3a!important;border-color:#b9cce0!important}
+.hero{background:radial-gradient(circle at 82% 18%,rgba(77,163,255,.22),transparent 28%),linear-gradient(135deg,#fff,#edf4fb)!important}.hero h1,.section h2{color:#0b1f3a!important}.hero h1 em,.section h2 span,.section h2 em,.hero .kicker,.section-head .kicker,.kicker{color:#1768b0!important}.lead,.section-head p,.card p,.job p{color:#61738a!important}.hero-card,.illustration-card{background:linear-gradient(145deg,#06152a,#12345f)!important;box-shadow:0 30px 80px rgba(11,31,58,.22)!important}.hero-card:before{background:rgba(77,163,255,.22)!important}.hero-card:after{background:rgba(124,196,255,.15)!important}.person{background:#4da3ff!important}.person:nth-child(2){background:#7cc4ff!important}.person:nth-child(3){background:#8eb8e8!important}.hero-card .kicker{color:#7cc4ff!important}
+.section{background:#f3f7fc!important}.section.alt{background:#fff!important}.section.dark,.dark,.dark-section{background:linear-gradient(135deg,#06152a,#0b1f3a 58%,#12345f)!important;color:#fff!important}.dark .section-head h2,.dark-section .section-head h2{color:#fff!important}.dark .section-head p,.dark-section .section-head p{color:#b9c9da!important}
+/* TODAS AS AREAS AZUIS: texto branco e negrito */
+.dark h2,.dark h3,.dark h4,.dark b,.dark strong,.dark label,.dark p,.dark span,.dark small,.dark a,.dark button,.dark li,.dark-section h2,.dark-section h3,.dark-section h4,.dark-section b,.dark-section strong,.dark-section label,.dark-section p,.dark-section span,.dark-section small,.dark-section a,.dark-section button{font-weight:800;color:#fff!important}.dark .section-head p,.dark-section .section-head p{font-weight:600;color:#d5e1ed!important}.dark .kpi span,.dark .kpi small{color:#dbe7f2!important;font-weight:800}.dark .career-step small{color:#fff!important;font-weight:800}
+.card,.panel,.job{background:#fff!important;border-color:#d7e2ef!important}.card .num{color:#1768b0!important}.profile{background:linear-gradient(135deg,#06152a,#0b1f3a)!important}.profile-option{background:#102846!important;border-color:#345477!important;color:#fff!important;font-weight:800}.profile-option.active{background:#4da3ff!important;color:#06172d!important;border-color:#4da3ff!important}.profile-result{background:#eaf4ff!important;color:#0b1f3a!important;border:1px solid #c8def3!important}
+.panel.value-panel,.value-panel,.total-panel{background:linear-gradient(145deg,#06152a,#0b1f3a)!important;color:#fff!important}.value-panel strong,.total-panel>strong{color:#7cc4ff!important}.bar,.bars i{background:#274563!important}.bar i,.bars i{background:linear-gradient(90deg,#4da3ff,#7cc4ff)!important}.panel input[type=range]{accent-color:#4da3ff!important}
+.career-track,.career{position:relative}.career-track:before,.career:before{background:linear-gradient(90deg,#4da3ff,#7cc4ff)!important}.career-step{background:#fff!important;color:#0b1f3a!important;border:1px solid #cbd9e8!important}.career-step:after{content:'→'!important;background:#0b1f3a!important;color:#fff!important;border:3px solid #f3f7fc!important}.career-step.active{background:#0b1f3a!important;color:#fff!important;border-color:#4da3ff!important;box-shadow:0 18px 45px rgba(11,31,58,.25)!important}.career-step.active:after{background:#4da3ff!important;color:#06172d!important}.career-step span{color:#1768b0!important}.career-step.active span{color:#7cc4ff!important}.career-step small{color:#61738a!important;font-weight:700}.career-step.active small{color:#fff!important;font-weight:800}.career-detail,.career-content{background:#eaf3fc!important;border-color:#cbdfee!important;color:#0b1f3a!important}.career-detail p{color:#61738a!important}
+.badge{background:#e8f3ff!important;color:#1768b0!important}.job-footer .btn{background:#0b1f3a!important;color:#fff!important}.welcome{background:linear-gradient(135deg,#e9f4ff,#dceeff)!important;color:#0b1f3a!important;border:1px solid #c6dbef!important}.listen{background:linear-gradient(145deg,#06152a,#0b1f3a)!important;color:#fff!important}.listen h3,.listen p,.listen span,.listen b{color:#fff!important;font-weight:800}.listen-options button{background:#102846!important;border-color:#345477!important;color:#fff!important;font-weight:800}.listen-options button:hover{border-color:#4da3ff!important}
+.risk-map button{background:#fff!important;border-color:#cbd9e8!important;color:#0b1f3a!important}.risk-map button.active{background:#0b1f3a!important;color:#fff!important;border-color:#0b1f3a!important;font-weight:800}.risk-detail{background:#eaf3fc!important;color:#0b1f3a!important}.risk-score{background:#d4e2ef!important}.risk-score i{background:#4da3ff!important}
+.kpi{background:rgba(255,255,255,.055)!important;border-color:rgba(124,196,255,.22)!important;color:#fff!important}.kpi strong{color:#7cc4ff!important;font-weight:800}.kpi small{color:#dbe7f2!important;font-weight:800}
 .section-head:after{content:'↓'!important;display:block!important;width:34px!important;height:34px!important;line-height:31px!important;text-align:center!important;border:1px solid #b9cce0!important;border-radius:50%!important;color:#1768b0!important;background:#fff!important;font-weight:800!important;margin-top:24px!important}
-
-/* MANIFESTO */
-.manifesto{background:radial-gradient(circle at 72% 45%,rgba(77,163,255,.18),transparent 25%),linear-gradient(135deg,#06152a,#0b1f3a 55%,#12345f)!important;color:#fff!important}
-.manifesto h2,.manifesto h2 span{color:#fff!important}
-.manifesto h2 em{color:#7cc4ff!important}
-.manifesto p,.manifesto .quote{color:#c4d3e2!important}
-.manifesto .btn.light{background:#fff!important;color:#0b1f3a!important}
-
-/* RODAPE */
-.footer,footer{background:#e8eef5!important;color:#536b84!important;border-top:1px solid #d5e0ec!important}
-
-/* MOBILE */
-@media(max-width:900px){
-  .career-step:after{content:'↓'!important;background:#0b1f3a!important;color:#fff!important;left:50%!important;right:auto!important;top:auto!important;bottom:-18px!important;transform:translateX(-50%)!important}
-}
+.manifesto{background:radial-gradient(circle at 72% 45%,rgba(77,163,255,.18),transparent 25%),linear-gradient(135deg,#06152a,#0b1f3a 55%,#12345f)!important;color:#fff!important}.manifesto h2,.manifesto h3,.manifesto b,.manifesto strong{color:#fff!important;font-weight:800!important}.manifesto h2 em{color:#7cc4ff!important}.manifesto p,.manifesto .quote{color:#fff!important;font-weight:700!important}.manifesto .btn.light{background:#fff!important;color:#0b1f3a!important}.footer,footer{background:#e8eef5!important;color:#536b84!important;border-top:1px solid #d5e0ec!important}
+@media(max-width:900px){.career-step:after{content:'↓'!important;background:#0b1f3a!important;color:#fff!important;left:50%!important;right:auto!important;top:auto!important;bottom:-18px!important;transform:translateX(-50%)!important}}
